@@ -22,4 +22,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist/your-project-name  # Set the correct path to your Angular project
+          publish_dir: https://armadian.github.io/scrumble/  # Set the correct path to your Angular project
